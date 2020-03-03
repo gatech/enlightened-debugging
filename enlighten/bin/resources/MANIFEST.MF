@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Premain-Class: instr.agent.InstrumentationAgent
+Boot-Class-Path: 
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true

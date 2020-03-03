@@ -1,0 +1,6 @@
+.version
+build/
+*.class
+*~
+*.DS_Store
+*.swp

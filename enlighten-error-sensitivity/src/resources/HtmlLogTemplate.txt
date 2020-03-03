@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript" src="CollapsibleLists/CollapsibleLists.js"></script>
+<script type="text/javascript">
+	function applyCollapsible() {
+		CollapsibleLists.apply();
+	}
+	window.onload = applyCollapsible;
+</script>
+<style type="text/css">
+	.collapsibleList li {
+		list-style-image:url('CollapsibleLists/button-blank.png');
+	}
+	li.collapsibleListOpen{
+	  list-style-image:url('CollapsibleLists/button-open.png');
+	}
+
+	li.collapsibleListClosed{
+	  list-style-image:url('CollapsibleLists/button-closed.png');
+	}
+</style>
+</head>
+<body>

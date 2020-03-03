@@ -1,0 +1,12 @@
+.version
+nbproject/private/
+build/
+dist/
+tmp/
+onthefly/*.java
+onthefly/*.class
+activity*.png
+*.class
+*~
+*.DS_Store
+*.swp
